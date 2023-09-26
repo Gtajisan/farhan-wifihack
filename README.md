@@ -10,10 +10,7 @@ Please note that root access is required.
 **Installing requirements**
 
 $ apt update && apt upgrade
-
-
 $ pkg install -y root-repo
-
 $ pkg install -y git tsu python wpa-supplicant pixiewps iw openssl
 
 ### Getting WifiHack
@@ -23,11 +20,9 @@ $ git clone https://github.com/Gtajisan/farhan-wifihack
 ### Running
 
 $ cd farhan
-
 $ chmod +x farhan.py
 
 ### One line Command
-
 $ sudo python farhan.py --help
 
 ```
